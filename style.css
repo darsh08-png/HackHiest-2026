@@ -1,0 +1,499 @@
+body {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0B1020;
+    color: #F8FAFC;
+}
+
+
+header {
+    padding: 100px 20px;
+}
+
+header {
+    padding: 120px 20px;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.register-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0B1020;
+    color: #F8FAFC;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #3367D6;
+    transition: background-color 0.3s ease;
+}
+#about {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#about h2 {
+    font-size: 32px;
+}
+
+#about p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #CBD5E1;
+}
+#highlights {
+    padding: 60px 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto 0;
+}
+
+.card {
+    padding: 24px;
+    background-color: #151E33;
+    border: 1px solid #293650;
+    border-radius: 12px;
+}
+
+.card p {
+    color: #CBD5E1;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+/* Overall page decoration */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:
+        radial-gradient(ellipse at top, #172554 0%, #0B1020 55%);
+    color: #F8FAFC;
+    font-family: Arial, sans-serif;
+}
+
+/* Section headings */
+section h2 {
+    font-size: clamp(28px, 4vw, 38px);
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+/* More space between sections */
+#about,
+#highlights,
+#details,
+#register {
+    padding: 75px 20px;
+}
+
+/* Decorative cards */
+.card {
+    background: linear-gradient(145deg, #17243B, #111827);
+    border: 1px solid #334155;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease,
+                border-color 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #4285F4;
+}
+
+/* Mobile spacing */
+@media (max-width: 600px) {
+    #about,
+    #highlights,
+    #details,
+    #register {
+        padding: 48px 16px;
+    }
+}
+/* Hero is the positioning area */
+header {
+    position: relative;
+}
+
+/* Common sticker style */
+.sticker {
+    position: absolute;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 1px solid #4285F4;
+    background: #17243B;
+}
+
+/* Place stickers around the heading */
+.sticker-left {
+    /* Add left position here */
+    top: 35%;
+    transform: rotate(-10deg);
+}
+
+.sticker-right {
+    /* Add right position here */
+    top: 40%;
+    transform: rotate(8deg);
+}
+/* HackHeist header improvements */
+header {
+position: relative;
+min-height: 360px;
+padding: 90px 20px 70px;
+text-align: center;
+overflow: hidden;
+background: radial-gradient(ellipse at center, #102e65 0%, #071225 65%, #030712 100%);
+}
+
+header h1 {
+font-size: clamp(42px, 6vw, 76px);
+font-weight: 800;
+letter-spacing: 2px;
+margin-bottom: 22px;
+color: #ffffff;
+text-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
+
+header p {
+font-size: 17px;
+color: #cbd5e1;
+margin: 12px 0;
+}
+
+.register-btn {
+display: inline-block;
+margin-top: 14px;
+padding: 14px 28px;
+background: linear-gradient(135deg, #38bdf8, #2563eb);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: 700;
+transition: 0.3s ease;
+box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+.register-btn:hover {
+transform: translateY(-3px);
+box-shadow: 0 8px 25px rgba(56, 189, 248, 0.4);
+}
+header h1 {
+    position: relative;
+    z-index: 2;
+}
+
+.sticker {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.sticker-left {
+    left: 12%;
+    top: 35%;
+    transform: rotate(-12deg);
+}
+
+.sticker-right {
+    right: 12%;
+    top: 35%;
+    transform: rotate(10deg);
+}
+
+header {
+    position: relative;
+}
+header h1 {
+    position: relative;
+    z-index: 2;
+}
+
+.sticker {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.sticker-left {
+    left: 12%;
+    top: 35%;
+    transform: rotate(-12deg);
+}
+
+.sticker-right {
+    right: 12%;
+    top: 35%;
+    transform: rotate(10deg);
+}
+
+header {
+    position: relative;
+}
+.sticker {
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    width: 90px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #38bdf8;
+    background: rgba(30, 64, 110, 0.45);
+    border: 1px solid rgba(56, 189, 248, 0.6);
+    border-radius: 14px;
+    box-shadow: 0 0 22px rgba(56, 189, 248, 0.18);
+}
+
+.sticker-left {
+    left: 15%;
+    top: 40%;
+    transform: rotate(-12deg);
+}
+
+.sticker-right {
+    right: 15%;
+    top: 40%;
+    transform: rotate(12deg);
+}
+
+@media (max-width: 600px) {
+    .sticker {
+        width: 55px;
+        height: 42px;
+        font-size: 19px;
+    }
+
+    .sticker-left {
+        left: 5%;
+    }
+
+    .sticker-right {
+        right: 5%;
+    }
+}
+/* Floating coding symbols */
+.code-float {
+    position: fixed;
+    z-index: 0;
+    pointer-events: none;
+    color: #38bdf8;
+    opacity: 0.18;
+    font-family: monospace;
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 0 0 15px #38bdf8;
+    animation: floatCode 7s ease-in-out infinite alternate;
+}
+
+.float-one {
+    top: 25%;
+    left: 7%;
+}
+
+.float-two {
+    top: 48%;
+    right: 8%;
+    animation-delay: 1s;
+}
+
+.float-three {
+    top: 72%;
+    left: 12%;
+    animation-delay: 2s;
+}
+
+.float-four {
+    top: 65%;
+    right: 14%;
+    animation-delay: 3s;
+}
+
+@keyframes floatCode {
+    from {
+        transform: translateY(0) rotate(-8deg);
+    }
+    to {
+        transform: translateY(-22px) rotate(8deg);
+    }
+}
+
+/* Keep the website content above the symbols */
+header,
+section {
+    position: relative;
+    z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .code-float {
+        animation: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .code-float {
+        font-size: 23px;
+        opacity: 0.12;
+    }
+}
+/* Premium Event Highlight Cards */
+#highlights {
+    padding: 70px 24px;
+    text-align: center;
+}
+
+#highlights h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    padding: 30px 24px;
+    background: linear-gradient(
+        145deg,
+        rgba(22, 48, 85, 0.9),
+        rgba(8, 19, 38, 0.95)
+    );
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    border-radius: 16px;
+    text-align: left;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    border-color: #38bdf8;
+    box-shadow: 0 12px 35px rgba(14, 165, 233, 0.16);
+}
+
+.card h3 {
+    color: #7dd3fc;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #cbd5e1;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #highlights h2 {
+        font-size: 26px;
+    }
+
+    .card {
+        padding: 24px;
+    }
+}
+/* Responsive layout for laptop, tablet and mobile */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cards {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 80px 20px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .card {
+        padding: 20px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 65px 16px;
+    }
+
+    header h1 {
+        font-size: clamp(32px, 10vw, 46px);
+        letter-spacing: 1px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 22px 18px;
+    }
+
+    .code-float {
+        font-size: 20px;
+    }
+}
